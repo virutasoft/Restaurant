@@ -314,7 +314,45 @@ header .navbar a:hover{
 }
 /* popular section */
 
+/* steps section */
 
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+
+}
+
+.steps .box{
+    flex: 1 1 25rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.steps .box  img{
+    border-radius: 50%;
+    border: .5rem solid var(--yellow);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+    
+}
+
+.steps .box  img:hover{
+    transition: linear 1.2s;
+    transform: rotateY(360deg);
+    cursor: pointer;
+}
+
+
+.steps .box h3{
+    font-size: 3rem;
+    color: var(--black);
+    padding: 1rem;
+}
+
+
+/* steps section */
 
 
 
