@@ -530,7 +530,38 @@ header .navbar a:hover{
 
 /* order section ends */
 
+/* footer section starts */
+.footer{
+    background: var(--black);
+    text-align: center;
+}
 
+.footer .share{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .credit{
+    padding: 2.5rem 1rem;
+    color: var(--white);
+    font-weight: normal;
+    font-size:2rem ;
+}
+
+.footer .credit span{
+    color: var(--red);
+}
+
+.footer .share .btn{
+   /* border-radius: 50%;  */
+   border: .5px solid var(--white);
+   color: var(--white);
+}
+
+
+/* footer section ends */
 
 
 
